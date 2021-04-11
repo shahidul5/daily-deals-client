@@ -1,0 +1,21 @@
+.header img{
+    height: 80px;
+}
+
+.header{
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    width: 200px;
+}
+nav a:hover{
+    background-color: gray;
+}
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot[class*="MuiFilledInput-root"] {
+    padding-right: 15px;
+}
+
