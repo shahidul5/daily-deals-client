@@ -25,7 +25,7 @@ const CategorySection = ({categories, setSelectedCategory}) => {
                 <Slider {...settings}>
                     {
                         categories.map(cat => (
-                            <Card key={cat._id} style={{cursor: 'pointer'}} onClick={() => setSelectedCategory(cat.categoryName)} className="rounded overflow-hidden">
+                            <Card key={cat._id} style={{cursor: 'pointer'}} className="rounded overflow-hidden">
                                 <Card.Img style={{minHeight: '200px', maxHeight: '200px'}} src={cat.productImage || cat.categorytImage || 'https://via.placeholder.com/150/000000/FFFFFF'} alt="Card image" />
                                 <Card.ImgOverlay className="d-flex flex-column justify-content-end">
                                     <Card.Title className="text-light shadow font-weight-bold display-4">{cat.categoryName}</Card.Title>
